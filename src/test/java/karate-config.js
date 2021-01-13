@@ -12,8 +12,19 @@ function fn(){
     checkout : '501',
     location_id_long : '20030',
     location_id : '30',
-    country : 'PE'
-
+    country : 'PE',
+    
+    
+    petStoreUrl: 'https://petstore.swagger.io',
+	paths:{
+		user : '/v2/user'
+	}
+	
+	
+	
+	
+	
+	
     }
 
     return config;
